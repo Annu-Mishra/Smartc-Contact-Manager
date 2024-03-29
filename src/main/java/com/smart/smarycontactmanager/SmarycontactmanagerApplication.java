@@ -7,8 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 // import org.springframework.context.annotation.ComponentScans;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"com.smart.smarycontactmanager.smartentities"})
-@ComponentScan(basePackages = {"com.smart.smarycontactmanager.smartcontroller","com.smart.smarycontactmanager.config","com.smart.smarycontactmanager.smartdao"}) 
 public class SmarycontactmanagerApplication {
 
 	public static void main(String[] args) {
