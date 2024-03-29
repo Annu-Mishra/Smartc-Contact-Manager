@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org" th:replace="normal/base::layout(~{::section}) ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><section>
+    <h1>Welcome to your private dashboard</h1>
+    <h1>User Name<span th:text="${user.name}"></span></h1>
+    <h1>User Email<span th:text="${user.email}"></span></h1>
+    <h1><a href="#" th:href="@{/logout}">Logout</a></h1> 
+    
+     <h1>User Name <span th:text="${user.name}"></span></h1>
+</section>
+</body>
+</html>
